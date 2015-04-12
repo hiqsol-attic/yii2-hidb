@@ -1,0 +1,30 @@
+{
+    "name": "hiqdev/yii2-hidb",
+    "type": "yii2-extension",
+    "description": "Yii2 cross-DBMS queries and migrations",
+    "keywords": ["db","query","yii2","extension"],
+    "homepage": "https://hiqdev.com/yii2-hidb",
+    "support": {
+        "email":  "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/yii2-hidb",
+        "issues": "https://github.com/hiqdev/yii2-hidb/issues",
+        "wiki":   "https://github.com/hiqdev/yii2-hidb/wiki",
+        "forum":  "https://forum.hiqdev.com/yii2"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name":     "Andrii Vasyliev",
+            "email":    "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hiqdev\\hidb\\": ""
+        }
+    }
+}
